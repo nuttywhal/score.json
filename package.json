@@ -1,0 +1,11 @@
+{
+  "name": "score.json",
+  "version": "1.0.0",
+  "description": "A model layer for music notation programs (scorewriters) that serializes to JSON.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nuttywhal <nutty@wha.al>",
+  "license": "MIT"
+}
