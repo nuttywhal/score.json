@@ -4,12 +4,13 @@
   "description": "A model layer for music notation programs (scorewriters) that serializes to JSON.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine --config=tests/support/jasmine.json"
+    "test": "istanbul cover jasmine -- --config=tests/support/jasmine.json"
   },
   "author": "Nuttywhal <nutty@wha.al>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "istanbul": "^0.4.5",
     "jasmine": "^3.1.0"
   }
 }
