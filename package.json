@@ -4,8 +4,11 @@
   "description": "A model layer for music notation programs (scorewriters) that serializes to JSON.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine --config=tests/support/jasmine.json"
   },
   "author": "Nuttywhal <nutty@wha.al>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jasmine": "^3.1.0"
+  }
 }
